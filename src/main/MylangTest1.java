@@ -33,8 +33,8 @@ class MylangTest1 {
 		{
 			str[i]="ab";
 		}
-		System.out.println(ml.Connect(str,n));
-		assertEquals("ABABABABABABAB", ml.Connect(str,5));
+		//System.out.println(ml.Connect(str,n));
+		assertEquals("AbABABABABABABABAB", ml.Connect(str,n));
 	}
 
 }

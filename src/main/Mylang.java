@@ -27,11 +27,11 @@ public class Mylang {
 		for(int i=1;i<=n;i++)
 		{
 			str[i]=StringUtils.capitalize(str[i]);
-			System.out.println(str[i]);
+			//System.out.println(str[i]);
 		}
 
 		temp=StringUtils.getCommonPrefix(str[1],str[2],str[3]);
-		System.out.println(temp);
+		//System.out.println(temp);
 		if(temp=="")
 		{
 			System.out.println("The Prefix is NULL");
